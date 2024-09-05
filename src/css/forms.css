@@ -1,9 +1,15 @@
-form {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spaceIn);
+a {
+    color: var(--color2);
 }
-input, button, select {
+button {
+    width: 120px;
+    padding-top: 3px;
+    margin-bottom: 0;
+    border: 0;
+    color: var(--color0);
+    background-color: var(--color2);
+}
+input, button {
     height: var(--spaceOut);
     padding: 0 var(--spaceIn);
     margin-bottom: var(--spaceIn);
@@ -12,12 +18,20 @@ input[type="radio"],
 input[type="checkbox"] {
     margin-bottom: 0;
 }
-button {
-    padding-top: 3px;
-    margin-bottom: 0;
+header {
+    background-color: var(--color0);
 }
-textarea {
-    resize: none;
+header img {
+    height: 50px;
+    padding: 0 0 10px 10px;
+}
+main {
+    width: 70%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spaceIn);
 }
 .flexInline {
     display: flex;
@@ -26,5 +40,8 @@ textarea {
 }
 .flexRowJustify {
     justify-content: space-between;
+}
+.cw120 {
+    width: 120px;
 }
 

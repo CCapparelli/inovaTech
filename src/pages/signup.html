@@ -10,29 +10,34 @@
 </head>
 <body>
     <header>
-        <img src="../img/SENAI_sem_assinatura_cor.png.png">
+        <img src="../img/Sistema-Fibra-com-assinatura_colorida_123x85.png">
         <a href="../../index.html">Inicio</a>
     </header>
     <main>
+        <h1>Cadastro</h1>
         <form action="#" method="post">
-            <label for="name">Nome do usuário *: </label>
-            <input id="name" type="text" required> 
-
-            <label for="email">E-mail * : </label>
-            <input id="email" type="email" placeholder="usuario@.sistemafibra.org.br" required>
+            <div class="flexInline">
+                <label class="cw120" for="name">Nome do usuário *</label>
+                <input id="name" type="text" required> 
+            </div>
+            <div class="flexInline">
+                <label class="cw120" for="email">E-mail *</label>
+                <input id="email" type="email" placeholder="usuario@senai.br" required>
+            </div>
+            <div class="flexInline">
+                <label class="cw120" for="password">Senha *</label>
+                <input id="password" type="password" minlength="8" maxlength="15" required>
+            </div>
+            <div class="flexInline">
+                <label class="cw120" for="password">Confirme a Senha *</label>
+                <input id="password" type="password" minlength="8" maxlength="15" required>
+            </div>
             
-            <label for="password">Senha * : </label>
-            <input id="password" type="password" minlength="8" maxlength="15" required>
-            
-            <label for="password">Confirme a Senha * : </label>
-            <input id="password" type="password" minlength="8" maxlength="15" required>
-
             <button type="submit"> CADASTRAR </button>
-
         </form>
     </main>
     <footer>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis odio totam ad, fugit sint at. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
     </footer>
 </body>
 </html>
