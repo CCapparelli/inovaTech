@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spaceIn);
+}
+input, button, select {
+    height: var(--spaceOut);
+    padding: 0 var(--spaceIn);
+    margin-bottom: var(--spaceIn);
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-bottom: 0;
+}
+button {
+    padding-top: 3px;
+    margin-bottom: 0;
+}
+textarea {
+    resize: none;
+}
+.flexInline {
+    display: flex;
+    gap: var(--spaceIn);
+    align-items: center;
+}
+.flexRowJustify {
+    justify-content: space-between;
+}
+

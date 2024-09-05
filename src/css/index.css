@@ -1,0 +1,46 @@
+:root {
+    --color0: white;
+    --color1: black;
+    --color2: dodgerblue;
+    --color3: silver;
+    --font1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, Helvetica;
+    --spaceIn: 10px;
+    --spaceOut: 30px;
+    --textSize: 10pt; 
+    --btnTextSize: 8pt; 
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header, body, footer, main, main img {
+    width: 100%;
+}
+body {
+    height: 100vh;
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+header {
+    width: 100%;
+    background-color: var(--color2);
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: var(--spaceOut);
+}
+footer {
+    background-color: var(--color2);
+    width: 100%;
+    height: 50px;
+}
+footer p {
+    color: var(--color0);
+    padding: 5px;
+    text-align: center;
+}
